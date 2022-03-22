@@ -19,7 +19,7 @@ interface CloudDataSource {
     class Base2() : CloudDataSource {
         override fun surname(): String {
             try {
-                return "Russia!"
+                return "Universe!"
             } catch (e: Exception) {
                 throw NoInternetConnectionException()
             }
